@@ -4,9 +4,9 @@ Simple JSON parser and slack notification bot. Designed to be used with a Slack 
 
 ## Getting Started
 
-Install Dependencies
+Designed to be used as a dev dependency. Explore your options if you'd like.
 ```
-npm install
+npm install --save-dev cucumberjs-slack-bot
 ```
 
 ### Prerequisites
