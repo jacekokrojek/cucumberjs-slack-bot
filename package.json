@@ -1,0 +1,35 @@
+{
+  "name": "cucumberjs-slack-bot",
+  "version": "0.0.1",
+  "description": "Simple slack notification tool.",
+  "main": "bot.js",
+  "dependencies": {
+    "git-repo-info": "^1.4.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabuckner/cucumberjs-slack-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "notification",
+    "report",
+    "e2e",
+    "cucumber",
+    "protractor",
+    "json"
+  ],
+  "author": "tabuckner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabuckner/cucumberjs-slack-bot/issues"
+  },
+  "homepage": "https://github.com/tabuckner/cucumberjs-slack-bot#readme"
+}
