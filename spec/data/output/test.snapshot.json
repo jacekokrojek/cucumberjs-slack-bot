@@ -1,0 +1,68 @@
+{
+    "Notification should return default values 1": {
+        "attachments": [{
+            "color": "#61ae7d",
+            "fallback": "E2E Test Results - Auto-Posted by QA-Notification Bot.",
+            "fields": [{
+                    "short": true,
+                    "title": "Feature Summary: 0% Passed",
+                    "value": ":white_check_mark: 0, :x: 3, :warning: 0"
+                },
+                {
+                    "short": true,
+                    "title": "Scenario Summary: 84% Passed",
+                    "value": ":white_check_mark: 21, :x: 4, :black_right_pointing_double_triangle_with_vertical_bar: 0, :interrobang: 0"
+                },
+                {
+                    "short": true,
+                    "title": "Step Summary: 98% Passed",
+                    "value": ":white_check_mark: 146, :x: 4, :black_right_pointing_double_triangle_with_vertical_bar: 0"
+                },
+                {
+                    "short": true,
+                    "title": "Hook Summary",
+                    "value": ":white_check_mark: 100, :x: 1"
+                }
+            ],
+            "pretext": "*E2E Test Results Summary*",
+            "text": "",
+            "title": "E2E Test Results"
+        }],
+        "channel": "C8E6G1T4M",
+        "mrkdwn": true,
+        "username": "E2E Bot"
+    },
+    "Notification should return values set via options 1": {
+        "attachments": [{
+            "color": "#61ae7d",
+            "fallback": "E2E Test Results - Auto-Posted by QA-Notification Bot.",
+            "fields": [{
+                    "short": true,
+                    "title": "Feature Summary: 0% Passed",
+                    "value": ":white_check_mark: 0, :x: 3, :warning: 0"
+                },
+                {
+                    "short": true,
+                    "title": "Scenario Summary: 84% Passed",
+                    "value": ":white_check_mark: 21, :x: 4, :black_right_pointing_double_triangle_with_vertical_bar: 0, :interrobang: 0"
+                },
+                {
+                    "short": true,
+                    "title": "Step Summary: 98% Passed",
+                    "value": ":white_check_mark: 146, :x: 4, :black_right_pointing_double_triangle_with_vertical_bar: 0"
+                },
+                {
+                    "short": true,
+                    "title": "Hook Summary",
+                    "value": ":white_check_mark: 100, :x: 1"
+                }
+            ],
+            "pretext": "*E2E Test Results Summary*",
+            "text": "Additonal information",
+            "title": "Latest run on IE"
+        }],
+        "channel": "C8E6G1T4M",
+        "mrkdwn": true,
+        "username": "E2E Bot"
+    }
+}

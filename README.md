@@ -27,8 +27,11 @@ Define your Slackbot configuratoin options:
 
 ```
 const slackBotOptions = {
+  githubInfo: [include github info (default is false): boolean]
   githubAccount: '[your account name: string]',
   githubRepo: '[your repo name: string]',
+  title: '[title of the notification: string]',
+  message: '[title of the notification: string]',
   cucumberJSON: '[filepath of Protractor JSON output: string]',
   slackEndpoint: 'https://hooks.slack.com/services/your/endpoint'
 }
